@@ -57,3 +57,30 @@ Create a queue:
 
 `queue = Queue()`
 
+Enqueue to a queue:
+
+`queue.enqueue(element)`
+
+Dequeue to a queue:
+
+`queue.dequeue()`
+
+Get the front element of a queue:
+
+`print(queue.front())`
+
+Get the back element of a queue:
+
+`print(queue.back())`
+
+Check if a queue is empty:
+
+`print(queue.isEmpty())`
+
+Get the size of a queue:
+
+`print(queue.size())`
+
+Get the whole queue in a list format:
+
+`print(queue.get_queue())`
