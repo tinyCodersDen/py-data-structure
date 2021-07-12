@@ -1,6 +1,8 @@
-from distutils.core import setup
+from setuptools import setup
+
 with open('README.md') as f:
     long_description = f.read()
+
 setup(
   name = 'py-data-structure',         # How you named your package folder (MyLib)
   packages = ['py-data-structure'],   # Chose the same as "name"
