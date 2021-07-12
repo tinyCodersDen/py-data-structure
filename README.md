@@ -1,5 +1,9 @@
 # Py Data Structure
-Py data stucture makes it easier to use data structures with python. While you can perform these operations in different ways, py data structure makes it much easier to use many data structures which we can use in C++ but not in Python. You can use Stacks, and Queues in this module, however we will be adding more data structures like heaps. Download py_data_structure.py into your directory. See documentation below for the functions and how it works. 
+Py data stucture makes it easier to use data structures with python. While you can perform these operations in different ways, py data structure makes it much easier to use many data structures which we can use in C++ but not in Python. You can use Stacks, and Queues in this module, however we will be adding more data structures like heaps. See documentation below for the functions and how it works. 
+
+
+## Installation:
+`pip install py-data-structure`
 
 ## Stacks:
 `from py_data_structure import Stack`<br>
