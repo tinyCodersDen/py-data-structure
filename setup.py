@@ -14,8 +14,8 @@ setup(
   author = 'Vihan',                   # Type in your name
   author_email = 'vihan.raval1@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/tinyCodersDen/py-data-structure',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/tinyCodersDen/py-data-structure/archive/refs/tags/v_0.1.1.tar.gz',    # I explain this later on
-  keywords = ['Data','structures','data structures','stacks','queues'],   # Keywords that define your package best
+  download_url = 'https://github.com/tinyCodersDen/py-data-structure/archive/refs/tags/v_0.1.1.tar.gz',
+  keywords = ['Data','structures','data structures','stacks','queues'],
   install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
