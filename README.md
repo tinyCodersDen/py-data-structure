@@ -9,88 +9,112 @@ See documentation below for the functions and how it works.
 
 
 ## Installation:
-`pip install py-data-structure`
+```
+pip install py-data-structure
+```
 
 ## Stacks:
-`from py_data_structure import Stack`<br>
+```
+from py_data_structure import Stack
+```
 
 Create a stack:
 
-`stack = Stack()`<br>
+```
+stack = Stack()
+```
 
 Push an element into a stack:
 
-`
+```
 stack.push(element)
-`
+```
 
 Pop/remove the top element from stack:
 
-`
+```
 stack.pop()
-`
+```
 
 Get the top element:
 
-`
+```
 print(stack.top())
-`
+```
 
 Get bottom element:
 
-`
+```
 print(stack.bottom())
-`
+```
 
 Get size of stack:
 
-`
+```
 print(stack.size())
-`
+```
 
 Check if stack is empty:
 
-`
+```
 print(stack.isEmpty())
-`
+```
 
 Get a list of stack values:
 
-`
+```
 print(stack.get_stack())
-`
+```
 
 ## Queues:
-`from py_data_structure import Queue`<br>
+```
+from py_data_structure import Queue
+```
 
 Create a queue:
 
-`queue = Queue()`
+```
+queue = Queue()
+```
 
 Enqueue to a queue:
 
-`queue.enqueue(element)`
+```
+queue.enqueue(element)
+```
 
 Dequeue to a queue:
 
-`queue.dequeue()`
+```
+queue.dequeue()
+```
 
 Get the front element of a queue:
 
-`print(queue.front())`
+```
+print(queue.front())
+```
 
 Get the back element of a queue:
 
-`print(queue.back())`
+```
+print(queue.back())
+```
 
 Check if a queue is empty:
 
-`print(queue.isEmpty())`
+```
+print(queue.isEmpty())
+```
 
 Get the size of a queue:
 
-`print(queue.size())`
+```
+print(queue.size())
+```
 
 Get the whole queue in a list format:
 
-`print(queue.get_queue())`
+```
+print(queue.get_queue())
+```
