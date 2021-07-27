@@ -3,7 +3,7 @@ with open('README.md') as f:
     long_description = f.read()
 setup(
   name = 'py-data-structure',
-  packages = ['py-data-structure'],
+  packages = ['py_data_structure'],
   version = '0.1.2',
   license='MIT',  
   description = 'A package that allows you to implement C++ data structures in Python.',
