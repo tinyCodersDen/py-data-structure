@@ -14,107 +14,107 @@ pip install py-data-structure
 ```
 
 ## Stacks:
-```
+```python
 from py_data_structure import Stack
 ```
 
 Create a stack:
 
-```
+```python
 stack = Stack()
 ```
 
 Push an element into a stack:
 
-```
+```python
 stack.push(element)
 ```
 
 Pop/remove the top element from stack:
 
-```
+```python
 stack.pop()
 ```
 
 Get the top element:
 
-```
+```python
 print(stack.top())
 ```
 
 Get bottom element:
 
-```
+```python
 print(stack.bottom())
 ```
 
 Get size of stack:
 
-```
+```python
 print(stack.size())
 ```
 
 Check if stack is empty:
 
-```
+```python
 print(stack.isEmpty())
 ```
 
 Get a list of stack values:
 
-```
+```python
 print(stack.get_stack())
 ```
 
 ## Queues:
-```
+```python
 from py_data_structure import Queue
 ```
 
 Create a queue:
 
-```
+```python
 queue = Queue()
 ```
 
 Enqueue to a queue:
 
-```
+```python
 queue.enqueue(element)
 ```
 
 Dequeue to a queue:
 
-```
+```python
 queue.dequeue()
 ```
 
 Get the front element of a queue:
 
-```
+```python
 print(queue.front())
 ```
 
 Get the back element of a queue:
 
-```
+```python
 print(queue.back())
 ```
 
 Check if a queue is empty:
 
-```
+```python
 print(queue.isEmpty())
 ```
 
 Get the size of a queue:
 
-```
+```python
 print(queue.size())
 ```
 
 Get the whole queue in a list format:
 
-```
+```python
 print(queue.get_queue())
 ```
