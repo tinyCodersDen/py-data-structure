@@ -118,3 +118,6 @@ Get the whole queue in a list format:
 ```python
 print(queue.get_queue())
 ```
+## Reporting a Vulnerability
+
+Do you have any suggestions, questions, comments, or concerns? Reach out to the developer at vihan.raval1@gmail.com or at GitHub to report an issue!
