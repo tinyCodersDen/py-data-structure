@@ -118,6 +118,32 @@ Get the whole queue in a list format:
 ```python
 print(queue.get_queue())
 ```
+
+## Unordered Maps:
+```python
+from py_data_structure import Unordered_map
+```
+
+Create an unordered map:
+```python
+unordered_map = Unordered_map()
+```
+
+Add a value to the unordered map:
+```python
+unordered_map.push_back(value)
+```
+
+Get a value from the unordered map:
+```python
+unordered_map.get_value(index)
+```
+
+Get an element(sublist value) from the unordered map:
+```python
+unordered_map.get_element(index1,index2)
+```
+
 ## Reporting a Vulnerability
 
 Do you have any suggestions, questions, comments, or concerns? Reach out to the developer at vihan.raval1@gmail.com or at GitHub to report an issue!
