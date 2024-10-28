@@ -34,7 +34,7 @@ class Queue:
             return False
     def size(self): return len(self.queue)
     def get_queue(self): return self.queue
-class unordered_map:
+class Unordered_map:
     def __init__(self):
         self.uMap = {}
         self.key = 0
