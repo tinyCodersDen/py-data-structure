@@ -34,3 +34,14 @@ class Queue:
             return False
     def size(self): return len(self.queue)
     def get_queue(self): return self.queue
+class unordered_map:
+    def __init__(self):
+        self.uMap = {}
+        self.key = 0
+    def push_back(self,value):
+        self.uMap[key] = value
+        self.key+=1
+    def get_value(self,index):
+        return self.uMap[index]
+    def get_element(self,index1,index2):
+        return self.uMap[index1][index2]
